@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="one">
+        <label for="attempt" id="attemptsLabel">NO.OF.ATTEMPTS</label>
+        <h2 id="lives-count">
+            <span id="lives">10</span>
+        </h2>        
+        </div>
+        <h1 id="title" >NUMBERATES</h1>
+       <!--<hr id="hor">--> 
+    <div class="container">
+        <h1>Guess the number between 1-100</h1>
+        <hr>
+        <label id="textLabel" for="label">Enter the number:</label>
+        <input type="number" name="number" id="textBox" placeholder=" enter your number"  min="1" max="100" >
+        <br>
+        <button id="checkButton" onclick="">check</button>
+    </div>
+
+    <div id="message"></div>
+    
+    <script src="./game.js"></script>
+</body>
+</html>
